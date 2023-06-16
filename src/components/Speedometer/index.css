@@ -1,0 +1,64 @@
+/* Write your CSS here */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: 'Roboto';
+}
+.bg-container {
+  background-color: #07080c;
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+}
+.heading {
+  color: #ffffff;
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+.image {
+  height: 300px;
+  width: 580px;
+  margin-bottom: 30px;
+}
+.speed {
+  color: #ffffff;
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 40px;
+}
+.speed-limits {
+  color: #cbd5e1;
+  font-size: 18px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+.button {
+  height: 40px;
+  width: 110px;
+  border-radius: 10px;
+  margin: 10px;
+  cursor: pointer;
+  outline: none;
+}
+.accelerate-btn {
+  background-color: #0b69ff;
+  color: #ffffff;
+  font-weight: 600;
+  border-width: 0px;
+}
+.apply-brake-btn {
+  background-color: transparent;
+  color: #94a3b8;
+  border: 2px solid #94a3b8;
+}
+@media (max-width: 576px) {
+  .image {
+    height: 100px;
+    width: 300px;
+    margin-bottom: 30px;
+  }
+}
